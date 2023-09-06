@@ -1,0 +1,29 @@
+{
+  "students": [
+    {
+      "stuname": "Sonam",
+      "email": "sonam@example.com",
+      "id": 1
+    },
+    {
+      "stuname": "Tar",
+      "email": "tar@example.com",
+      "id": 2
+    },
+    {
+      "stuname": "mint",
+      "email": "mint@example.com",
+      "id": 3
+    },
+    {
+      "stuname": "park",
+      "email": "park@example.com",
+      "id": 4
+    },
+    {
+      "stuname": "poo",
+      "email": "poo@example.com",
+      "id": 5
+    }
+  ]
+}
