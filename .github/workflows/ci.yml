@@ -12,7 +12,7 @@ jobs:
         with:
           node-version: 18.17.1
 
-      - name: Run Lint and Test
+      - name: Run Test
         # Install a project with a clean slate (required package-lock.json)
         # npm ci will: Delete the node_modules folder
         # npm ci will: Install all package-lock.json dependencies.
