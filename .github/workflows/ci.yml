@@ -1,7 +1,7 @@
 name: VUE
 
 on:
-  push:
+  push: branches: [ main ]
 
 jobs:
   build:
@@ -9,15 +9,12 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: Use Node.js 18.17.1
+      - name: Use Node.js 18
         uses: actions/setup-node@v2
         with:
-          node-version: 18.17.1
+          node-version: 18
 
       - name: Run Test
-        # Install a project with a clean slate (required package-lock.json)
-        # npm ci will: Delete the node_modules folder
-        # npm ci will: Install all package-lock.json dependencies.
         run: |
           npm test
 

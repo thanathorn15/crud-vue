@@ -1,6 +1,9 @@
-import axios from "axios";
-import useStudent from '../../composables/studentApi'
-import MockAdapter from "axios-mock-adapter";
+// import axios from "axios";
+// import useStudent from '../../composables/studentApi'
+// import MockAdapter from "axios-mock-adapter";
+const axios = require("axios")
+const useStudent = require("../../composables/studentApi")
+const MockAdapter = require("axios-mock-adapter")
 
 
 describe("useStudent", () => {
