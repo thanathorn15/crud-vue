@@ -17,8 +17,8 @@ RUN npm run build
 
 EXPOSE 5173
 
-CMD [ "npx","serve","-s","dist" ]
-# CMD [ "npm","run","dev" ]
+# CMD [ "npx","serve","-s","dist" ]
+CMD [ "npm","run","dev" ]
 
 
 # Choose the Image which has Node installed already

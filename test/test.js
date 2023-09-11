@@ -1,7 +1,6 @@
 import axios from "axios";
 import useStudent from '../../composables/studentApi'
 import MockAdapter from "axios-mock-adapter";
-import jest from "jest"
 
 
 

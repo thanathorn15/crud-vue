@@ -17,7 +17,7 @@ const handleAddStudentForm = async () => {
 <template>
   <div>
   <h1 className="flex justify-center text-3xl font-bold underline">
-      Add Student
+      ADD Student
     </h1>
 
     <div class=" flex justify-center h-full">
