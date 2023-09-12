@@ -16,7 +16,7 @@ jobs:
 
       - name: Run Test
         run: |
-          npm ci
+          npm i
           npm test
 
       - name: Login to Docker Hub
